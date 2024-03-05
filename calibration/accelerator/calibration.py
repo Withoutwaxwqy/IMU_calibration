@@ -1,3 +1,10 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import re
+import matplotlib.ticker as mticker
+import matplotlib
+import numpy as np
+
 
 def sixPositionMethod(xacce_vec,yacce_vec,zacce_vec,design_matrix=None,autodesign_matrix=False):
   """
