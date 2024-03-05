@@ -1,5 +1,5 @@
 
-defsixPositionMethod(xacceTeCvaccezacce vecdesiqn matrix-Noneautodesign matrixFalse):
+def sixPositionMethod(xacce_vec,yacce_vec,zacce_vec,design_matrix=None,autodesign_matrix=False):
   """
   six position method to acceleration calibration
   :param xacce vec:l*n matrix X-axis acceleratoroutput
