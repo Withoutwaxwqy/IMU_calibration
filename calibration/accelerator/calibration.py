@@ -5,6 +5,18 @@ import matplotlib.ticker as mticker
 import matplotlib
 import numpy as np
 
+class INSCalibration:
+  def __init__(self, herz):
+    self.index = []
+    self.herz = herz
+    self.data7 = pd.DataFrame()
+
+  def plot7columndata(self, path):
+    lw = 0.3
+    gyrocolor, accecolor = 'red', 'blue'
+    fig, axes = plt.subplots(3, 2, figsize=(20.5))
+
+
 
 def sixPositionMethod(xacce_vec,yacce_vec,zacce_vec,design_matrix=None,autodesign_matrix=False):
   """
